@@ -17,7 +17,7 @@ namespace ProxyPattern
             if (Authenticate(doorPassword))
                 _door.Open(null);
             else
-                Console.WriteLine("Открыть дверь невозможно!");
+                Console.WriteLine("Дверь не открывается без ввода верного пароля");
         }
 
         public void Close() => _door.Close();

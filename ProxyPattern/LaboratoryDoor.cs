@@ -6,12 +6,12 @@ namespace ProxyPattern
     {
         public void Open(object _)
         {
-            Console.WriteLine("Открытие двери лаборатории");
+            Console.WriteLine("Дверь открылась");
         }
 
         public void Close()
         {
-            Console.WriteLine("Закрытие двери лаборатории");
+            Console.WriteLine("Дверь закрылась");
         }
     }
 }
